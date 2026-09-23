@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ro"> 
+
+<head> <!-- 3. Partea de "Creier" (Metadate) -->
+    <!-- Aici stau informații PENTRU browser, NU pentru utilizator.
+Nimic de aici nu e vizibil pe pagina albă (excepție: titlul din tab-ul de
+sus). -->
+    <meta charset="UTF-8">
+    <title>Task Tracker Login</title>
+</head>
+
+<body>
+    <h1>Bine ai venit la Task Tracker!</h1>
+    <main> 
+
+    <div class="login-container">
+         <h2>Autentificare</h2>
+            <form id="login-email"> 
+                <label for="login-email">Email:</label> 
+                <input type="text" id="login-email" data-testid="input-email" placeholder="email" required> 
+            </form>    
+
+            <form id="login-password">     
+                <label for="add-login-password">Parola:</label> 
+                <input type="password" id="login-password" data-testid="input-password" placeholder="parola" required>    
+                
+            </form>
+
+            <form action="submit">
+                <button type="submit" id="add-login-btn" data-testid="btn-submit-login">Log In</button>
+            </form>
+
+    </div>
+    <footer> 
+            <p>(c) 2026 QualiAdept Bootcamp</p> 
+        </footer>
+    </main> 
+
+</body>
+
+</html>
